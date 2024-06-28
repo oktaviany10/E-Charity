@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galang Donasi - E-Charity</title>
+    <link rel="stylesheet" href="gaya/galangdonasi.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="1homefix.html"><p>E-Charity</p></a>
+        </div>
+
+        <div class="right-links">
+            <a href="1akun.html"><button class="btn">Akun Saya</button></a>
+        </div>
+    </div>
+    <div class="container">
+        <main>
+            <section class="form-section">
+                <h2>Galang Donasi</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="image">Gambar</label>
+                        <div class="image-upload">
+                            <input type="file" id="image" name="image">
+                            <span>+Add Image</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Judul</label>
+                        <input type="text" id="title" name="title">
+                    </div>
+                    <div class="form-group">
+                        <label for="story">Cerita Penggalangan</label>
+                        <textarea id="story" name="story"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="needs">Kebutuhan Donasi</label>
+                        <input type="text" id="food" name="needs[food]" placeholder="Makanan">
+                        <input type="text" id="clothes" name="needs[clothes]" placeholder="Pakaian">
+                        <input type="text" id="medicine" name="needs[medicine]" placeholder="Obat - Obatan">
+                        <input type="text" id="others" name="needs[others]" placeholder="Lainnya">
+                    </div>
+                    <div class="form-group">
+                        <label for="deadline">Tenggat Waktu</label>
+                        <input type="date" id="deadline" name="deadline">
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raise Donation</title>
+    <link rel="stylesheet" href="style/galangdana.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <p>E-Charity</p>
+        </div>
+
+        <div class="right-links">
+            <a href="donasi.html">My Donation</a>
+            <a href="profil.html">My Profile</a>
+            <a href="logout.php"><button class="btn">Log Out</button></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <a href="mykomunitas.html" class="back-button">&#8592;</a>
+            <h3>Raise Donation</h3>
+        </div>
+        <div class="form-section">
+            <div class="form-group">
+                <label for="image">Image</label>
+                <div class="image-upload">
+                    <input type="file" id="image" name="image">
+                    <span class="add-image">+ Add Image</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" placeholder="Add Title Here">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" placeholder="Add Description Here"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount Of Donations Needed</label>
+                <input type="number" id="amount" name="amount" placeholder="Add Amount Here">
+            </div>
+            <div class="field">
+                <input type="submit" class="btn" name="submit" value="Submit" required> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

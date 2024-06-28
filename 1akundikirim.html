@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikirim</title>
+    <link rel="stylesheet" href="gaya/akundonasi.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="1homefix.html"><p>E-Charity</p></a>
+        </div>
+
+        <div class="right-links">
+            <a href="1akun.html"><button class="btn">Akun Saya</button></a>
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="content">
+            <div class="form-header">
+                <a href="1homefix.html"><button class="back-button">&larr;</button></a>
+                <h2 id="tab-title">Dikirim</h2>
+            </div>
+            <div class="tab-bar">
+                <a href="1akun.html"><button class="tab-button" onclick="openTab(event, 'akun-saya')">Akun Saya</button></a>
+                <a href="1akundonasi.html"><button class="tab-button active" onclick="openTab(event, 'donasi')">Donasi</button></a>
+                <a href="1akundikirim.html"><button class="tab-button" onclick="openTab(event, 'dikirim')">Dikirim</button></a>
+                <a href="1akunselesai.html"><button class="tab-button" onclick="openTab(event, 'selesai')">Selesai</button></a>
+            </div>
+            <div id="akun-saya" class="tab-content">
+                <h3>Akun Saya</h3>
+            </div>
+            <div id="donasi" class="tab-content active">
+                
+                <div class="donation-list">
+                    <div class="donation-item">
+                        <div class="donation-image">Image</div>
+                        <div class="donation-details">
+                            <h4>[Nama Barang]</h4>
+                            <p>Detail: Ukuran/Warna</p>
+                            <p>Jumlah: 2</p>
+                        </div>
+                    </div>
+                    <div class="donation-item">
+                        <div class="donation-image">Image</div>
+                        <div class="donation-details">
+                            <h4>[Nama Barang]</h4>
+                            <p>Detail: Ukuran/Warna</p>
+                            <p>Jumlah: 2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dikirim" class="tab-content">
+                <h3>Dikirim</h3>
+                <p>Content for Dikirim.</p>
+            </div>
+            <div id="selesai" class="tab-content">
+                <h3>Selesai</h3>
+                <p>Content for Selesai.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

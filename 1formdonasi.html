@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Charity</title>
+    <link rel="stylesheet" href="gaya/formdonasi.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="1homefix.html"><p>E-Charity</p></a>
+        </div>
+
+        <div class="right-links">
+            <a href="1akun.html"><button class="btn">Akun Saya</button></a>
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="content">
+            <div class="form-header">
+                <a href="1homefix.html"><button class="back-button">&larr;</button></a>
+                <h2 id="tab-title">Berikan Donasi</h2>
+            </div>
+            
+
+            <form class="donation-form">
+                <label for="image">Gambar</label>
+                <div class="input-box image-box">
+                    <input type="file" id="image" name="image" accept="image/*" onchange="loadFile(event)">
+                    <img id="output" src="#" alt="Image Preview" style="display:none;" />
+                    <span>Add Image</span>
+                </div>
+
+                <label for="item-name">Nama Barang</label>
+                <div class="input-box">
+                    <input type="text" id="item-name" name="item-name">
+                </div>
+
+                <label for="details">Detail</label>
+                <div class="input-box">
+                    <input type="text" id="details" name="details">
+                </div>
+
+                <label for="amount">Jumlah</label>
+                <div class="input-box">
+                    <input type="text" id="amount" name="amount">
+                </div>
+
+                <button type="submit" class="donate-button">Donasi Sekarang</button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
